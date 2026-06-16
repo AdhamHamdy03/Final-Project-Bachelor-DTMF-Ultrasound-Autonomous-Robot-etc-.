@@ -1,0 +1,81 @@
+(ExpressProject "reception_dtmf"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\reception_dtmf.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MICROPHONE
+      (FullPartName "MICROPHONE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\ELECTROMECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (9HT10-32768KDZF-T
+      (FullPartName "9HT10-32768KDZF-T.Normal")
+      (LibraryName
+         "\\PPI.INGENIERIE.UPMC.FR\DFS\USERS\21214342\DESKTOP\9HT10-32768KDZF-T.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RECEIVER-HT9170
+      (FullPartName "RECEIVER-HT9170.Normal")
+      (LibraryName
+         "\\PPI.INGENIERIE.UPMC.FR\DFS\USERS\21214342\DESKTOP\RECEIVER-HT9170DSOIC18.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "\\ppi.ingenierie.upmc.fr\dfs\Users\21214342\Desktop\reception_dtmf.dsn")
+      (Path "Design Resources"
+         "\\ppi.ingenierie.upmc.fr\dfs\Users\21214342\Desktop\reception_dtmf.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView
+      (Path "SCHEMATIC1"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 435"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 -103 1289 79 544")
+        (Scroll "165 340")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "\\PPI.INGENIERIE.UPMC.FR\DFS\USERS\21214342\DESKTOP\RECEPTION_DTMF.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
